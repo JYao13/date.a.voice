@@ -1,0 +1,473 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "date a voice",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetDateStatusIntent",
+          "slots": [],
+          "samples": [
+            "status"
+          ]
+        },
+        {
+          "name": "StartDatingSimIntent",
+          "slots": [],
+          "samples": [
+            "start the dating sim",
+            "start dating sim",
+            "start the dating simulator",
+            "start dating simulator"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "4",
+              "name": {
+                "value": "cortana"
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "bixby"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "siri"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "google",
+                "synonyms": [
+                  "google home"
+                ]
+              }
+            },
+            {
+              "id": "0",
+              "name": {
+                "value": "alexa"
+              }
+            }
+          ],
+          "name": "va_name"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "arcade"
+              }
+            },
+            {
+              "name": {
+                "value": "restaurant",
+                "synonyms": [
+                  "cafe",
+                  "eatery"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "beach"
+              }
+            }
+          ],
+          "name": "date_location"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "relaxing with a book"
+              }
+            },
+            {
+              "name": {
+                "value": "shopping trip"
+              }
+            },
+            {
+              "name": {
+                "value": "dinner party"
+              }
+            },
+            {
+              "name": {
+                "value": "clubbing",
+                "synonyms": [
+                  "nightclub"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "watching a movie"
+              }
+            }
+          ],
+          "name": "fri_night"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tennis date"
+              }
+            },
+            {
+              "name": {
+                "value": "date on a yacht"
+              }
+            },
+            {
+              "name": {
+                "value": "museum"
+              }
+            },
+            {
+              "name": {
+                "value": "skydiving"
+              }
+            },
+            {
+              "name": {
+                "value": "picnic at the park"
+              }
+            }
+          ],
+          "name": "first_date"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "super speed"
+              }
+            },
+            {
+              "name": {
+                "value": "rich and beautiful"
+              }
+            },
+            {
+              "name": {
+                "value": "telepathy"
+              }
+            },
+            {
+              "name": {
+                "value": "mind control"
+              }
+            },
+            {
+              "name": {
+                "value": "invulnerability"
+              }
+            }
+          ],
+          "name": "superpower"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "aqua"
+              }
+            },
+            {
+              "name": {
+                "value": "rose gold"
+              }
+            },
+            {
+              "name": {
+                "value": "red"
+              }
+            },
+            {
+              "name": {
+                "value": "blue"
+              }
+            },
+            {
+              "name": {
+                "value": "orange"
+              }
+            }
+          ],
+          "name": "AMAZON.Color"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "psychological thriller"
+              }
+            },
+            {
+              "name": {
+                "value": "romance"
+              }
+            },
+            {
+              "name": {
+                "value": "documentary"
+              }
+            },
+            {
+              "name": {
+                "value": "horror"
+              }
+            },
+            {
+              "name": {
+                "value": "comedy"
+              }
+            }
+          ],
+          "name": "movie"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "all seasons"
+              }
+            },
+            {
+              "name": {
+                "value": "winter"
+              }
+            },
+            {
+              "name": {
+                "value": "fall",
+                "synonyms": [
+                  "autumn"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "summer"
+              }
+            },
+            {
+              "name": {
+                "value": "spring"
+              }
+            }
+          ],
+          "name": "season"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "collarbone"
+              }
+            },
+            {
+              "name": {
+                "value": "arm sleeve "
+              }
+            },
+            {
+              "name": {
+                "value": "ankle"
+              }
+            },
+            {
+              "name": {
+                "value": "neck"
+              }
+            },
+            {
+              "name": {
+                "value": "no tattoo",
+                "synonyms": [
+                  "I would not get a tattoo"
+                ]
+              }
+            }
+          ],
+          "name": "tattoo"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "online store"
+              }
+            },
+            {
+              "name": {
+                "value": "watch store"
+              }
+            },
+            {
+              "name": {
+                "value": "consulting company"
+              }
+            },
+            {
+              "name": {
+                "value": "travel agency"
+              }
+            },
+            {
+              "name": {
+                "value": "book store"
+              }
+            }
+          ],
+          "name": "business"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "maybe"
+              }
+            },
+            {
+              "name": {
+                "value": "no"
+              }
+            },
+            {
+              "name": {
+                "value": "yes"
+              }
+            }
+          ],
+          "name": "cheated"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "one horse sized duck"
+              }
+            },
+            {
+              "name": {
+                "value": "one hundred duck-sized horses"
+              }
+            }
+          ],
+          "name": "duck_horse"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cats",
+                "synonyms": [
+                  "feline",
+                  "kitten",
+                  "cat"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dogs",
+                "synonyms": [
+                  "puppy",
+                  "dog"
+                ]
+              }
+            }
+          ],
+          "name": "dogs_cats"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tea"
+              }
+            },
+            {
+              "name": {
+                "value": "coffee"
+              }
+            }
+          ],
+          "name": "coffee_tea"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "shark"
+              }
+            },
+            {
+              "name": {
+                "value": "mountain lion"
+              }
+            },
+            {
+              "name": {
+                "value": "elephant"
+              }
+            },
+            {
+              "name": {
+                "value": "eagle"
+              }
+            },
+            {
+              "name": {
+                "value": "turtle"
+              }
+            }
+          ],
+          "name": "animal"
+        }
+      ]
+    }
+  },
+  "version": "52"
+}
